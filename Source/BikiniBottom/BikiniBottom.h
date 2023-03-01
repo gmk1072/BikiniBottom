@@ -3,3 +3,11 @@
 #pragma once
 
 #include "CoreMinimal.h"
+
+UENUM(BlueprintType)
+enum class BikiniBottomAbilityID : uint8
+{
+	None UMETA(DispayName = "None"),
+	Confirm UMETA(DispayName = "Confirm"),
+	Cancel UMETA(DispayName = "Cancel"),
+};
